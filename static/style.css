@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#board{
+    position: absolute;
+    left: 300px;
+    top: 100px;
+}
+
+#row1, #row2, #row3, #row4{
+    display: flex;
+}
+
+#column{
+    display: flex;
+    flex-direction: column;
+}
+
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
